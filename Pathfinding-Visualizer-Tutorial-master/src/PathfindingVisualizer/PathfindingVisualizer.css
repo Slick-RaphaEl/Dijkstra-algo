@@ -1,0 +1,37 @@
+.grid {
+  margin: 20px 0 0;
+}
+
+.button-box{
+  margin: 0 auto;
+  background-color: rgb(12, 10, 60);
+  height: 80px;
+}
+
+.button-box button{
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  color: #0A85ED;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.button-box button:hover{
+  background-color: #0A85ED;
+  color: #fff;
+}
+
+.info-box{
+  width: 100%;
+  background-color: rgb(12, 10, 60);
+}
+
+.info-box h1,
+.info-box p{
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: auto 10%;
+}
